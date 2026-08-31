@@ -15,8 +15,7 @@
 
 > Biotechnology gives me the questions. Software gives me a way to test them.
 
-NovaCoding is the independent practice of **Giovannipaolo Roscino**, based in
-Apulia, Italy. I build public systems where code has to stay close to evidence:
+NovaCoding is the independent practice of **Giovannipaolo Roscino**, based in Italy. I build public systems where code has to stay close to evidence:
 security tools that show their findings, scientific interfaces that preserve
 their sources, and simulations that explain their limits.
 
