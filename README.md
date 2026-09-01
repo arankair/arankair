@@ -3,6 +3,7 @@
 <img src="./assets/hero.svg" width="100%" alt="Aran Kair — independent technologist"/>
 
 [github](https://github.com/arankair) &nbsp;·&nbsp;
+[xyden](https://github.com/XYDEN) &nbsp;·&nbsp;
 [vsarena](https://vsarena.vercel.app) &nbsp;·&nbsp;
 [email](mailto:arankair.dev@gmail.com)
 
@@ -15,8 +16,9 @@
 > Independent technologist. Software, AI and robotics systems — built in public.
 
 I am **Aran Kair**. I design tools and environments where models have to act in
-the world, not only talk about it. The current practice is **XYDEN**: software,
-embodied AI and open systems that can be inspected, scored and reused.
+the world, not only talk about it. **[XYDEN](https://github.com/XYDEN)** is my
+lab and GitHub organization: software, embodied AI and open systems that can
+be inspected, scored and reused.
 
 The rule is simple: **if it cannot be watched, it does not count.**
 
@@ -35,22 +37,29 @@ policy, read a public board the browser cannot write.
 
 <br>
 
-<img src="./assets/projects.svg" width="100%" alt="VSArena and XYDEN"/>
+<img src="./assets/projects.svg" width="100%" alt="VSArena, Beacon and NovaCheck"/>
 
 **[VSArena](https://github.com/arankair/VSArena)** &nbsp;·&nbsp;
 <samp>next.js / python / rapier</samp><br>
 One stacking task on purpose. Rapier at 60 Hz in the browser, a VLA observation
 track, a Python SDK and harness ELO. **[Open the live arena →](https://vsarena.vercel.app)**
 
-**XYDEN** &nbsp;·&nbsp;
-<samp>software / ai / robotics</samp><br>
-Independent practice for systems that have to survive contact with the physical
-and the public web. Open source where the work benefits from review.
+**[Beacon](https://github.com/arankair/B.E.A.C.O.N)** &nbsp;·&nbsp;
+<samp>next.js / typescript / open data</samp><br>
+Places JPL CAD, JPL Sentry and ESA NEOCC values side by side for the same
+near-Earth object. No average, no proprietary risk score.
+**[Open the live system →](https://novabeacon.vercel.app)**
+
+**[NovaCheck](https://github.com/arankair/NovaCheck)** &nbsp;·&nbsp;
+<samp>typescript / node / sarif</samp><br>
+Local-first CLI that finds hallucinated npm and PyPI packages in manifests,
+imports, docs and agent files—before you install them. Source stays on the
+machine.
 
 <br>
 
 <samp>
-WORKING SET / TYPESCRIPT · PYTHON · NEXT.JS · REACT · NODE · RAPIER · GIT · LINUX
+WORKING SET / TYPESCRIPT · PYTHON · NEXT.JS · REACT · NODE · RAPIER · BUN · GIT · LINUX
 </samp>
 
 <br><br>

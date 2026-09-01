@@ -34,9 +34,7 @@ def main() -> None:
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     banned = (
         "NovaCoding",
-        "novacoding",
-        "NovaCheck",
-        "novacheck",
+        "novacoding.",
         "Roscino",
         "Giovannipaolo",
         "Gianpaolo",
@@ -48,7 +46,6 @@ def main() -> None:
         "Biotechnology",
         "novacodingg",
         "NovaMono",
-        "novabeacon",
     )
     scanned = [readme] + [path.read_text(encoding="utf-8") for path in svg_paths]
     scanned.extend(

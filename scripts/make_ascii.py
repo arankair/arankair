@@ -71,7 +71,7 @@ def shared_style(text: str) -> str:
 def build_hero() -> str:
     labels = (
         "ARAN KAIR INDEPENDENT TECHNOLOGIST WORLD XYDEN "
-        "SOFTWARE AI ROBOTICS EMBODIED SYSTEMS OPEN SOURCE "
+        "LAB GITHUB ORGANIZATION SOFTWARE AI ROBOTICS OPEN SOURCE "
         + "".join(AK_MARK)
     )
     parts = [
@@ -122,7 +122,7 @@ def build_hero() -> str:
             '<text y="-2" text-anchor="middle" class="accent" font-family="KairMono" '
             'font-size="9" font-weight="700">XYDEN</text>',
             '<text y="10" text-anchor="middle" class="faint" font-family="KairMono" '
-            'font-size="6">LAB / 01</text>',
+            'font-size="6">LAB / ORG</text>',
             '<circle r="3.5" class="accent motion"><animateMotion dur="10s" '
             'repeatCount="indefinite" path="M88 0A88 59 0 1 1 -88 0A88 59 0 1 1 88 0"/></circle>',
             '<circle r="2.5" class="muted motion"><animateMotion dur="13s" '
@@ -139,8 +139,8 @@ def build_hero() -> str:
             "</g>",
             '<text x="24" y="330" class="accent" font-family="KairMono" font-size="10">&gt;_</text>',
             '<text x="52" y="330" class="ink" font-family="KairMono" font-size="10">'
-            "SOFTWARE, AI AND ROBOTICS SYSTEMS</text>",
-            '<rect x="368" y="319" width="7" height="14" class="accent motion">'
+            "XYDEN  ·  LAB AND GITHUB ORGANIZATION</text>",
+            '<rect x="392" y="319" width="7" height="14" class="accent motion">'
             '<animate attributeName="opacity" values="1;.15;1" dur="1.1s" '
             'repeatCount="indefinite"/></rect>',
             "</svg>",
@@ -152,7 +152,8 @@ def build_hero() -> str:
 def build_projects() -> str:
     projects = [
         ("01", "VSARENA", "EMBODIED AI", "BROWSER ARENA · VLA · PUBLIC ELO"),
-        ("02", "XYDEN", "PRACTICE", "SOFTWARE · AI · ROBOTICS · OPEN SOURCE"),
+        ("02", "BEACON", "PLANETARY DATA", "JPL CAD · JPL SENTRY · ESA NEOCC"),
+        ("03", "NOVACHECK", "AI SECURITY", "GHOST PACKAGES · SARIF · LOCAL-FIRST"),
     ]
     all_text = " ".join(" ".join(item) for item in projects)
     height = 8 + len(projects) * 76
