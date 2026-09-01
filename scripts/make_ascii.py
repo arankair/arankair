@@ -77,7 +77,7 @@ def build_hero() -> str:
     parts = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" '
         'viewBox="0 0 620 360" role="img" aria-labelledby="title desc">',
-        '<title id="title">Aran Kair — independent technologist</title>',
+        '<title id="title">Aran Kair — ONISCOR lab</title>',
         '<desc id="desc">Animated monogram with software, AI and robotics signals</desc>',
         f"<style>{shared_style(labels)}</style>",
         '<rect x=".5" y=".5" width="619" height="359" rx="12" class="panel"/>',
@@ -204,7 +204,7 @@ def build_heading(label: str) -> str:
 
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
-    (ASSETS / "hero.svg").write_text(build_hero(), encoding="utf-8")
+    (ASSETS / "identity.svg").write_text(build_hero(), encoding="utf-8")
     (ASSETS / "projects.svg").write_text(build_projects(), encoding="utf-8")
     for slug, label in (
         ("about", "Manifesto"),

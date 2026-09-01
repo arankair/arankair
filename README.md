@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Aran Kair — independent technologist"/>
+<img src="./assets/identity.svg" width="100%" alt="Aran Kair — ONISCOR lab"/>
 
 [github](https://github.com/arankair) &nbsp;·&nbsp;
 [oniscor](https://github.com/ONISCOR) &nbsp;·&nbsp;
