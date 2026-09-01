@@ -3,7 +3,6 @@
 <img src="./assets/hero.svg" width="100%" alt="Aran Kair — independent technologist"/>
 
 [github](https://github.com/arankair) &nbsp;·&nbsp;
-[xyden](https://github.com/XYDEN) &nbsp;·&nbsp;
 [vsarena](https://vsarena.vercel.app) &nbsp;·&nbsp;
 [email](mailto:arankair.dev@gmail.com)
 
@@ -16,9 +15,8 @@
 > Independent technologist. Software, AI and robotics systems — built in public.
 
 I am **Aran Kair**. I design tools and environments where models have to act in
-the world, not only talk about it. **[XYDEN](https://github.com/XYDEN)** is my
-lab and GitHub organization: software, embodied AI and open systems that can
-be inspected, scored and reused.
+the world, not only talk about it. **XYDEN** is my lab and GitHub organization:
+software, embodied AI and open systems that can be inspected, scored and reused.
 
 The rule is simple: **if it cannot be watched, it does not count.**
 
