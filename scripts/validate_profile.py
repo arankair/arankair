@@ -32,6 +32,35 @@ def main() -> None:
             errors.append(f"{path.relative_to(ROOT)}: missing dark-mode rules")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    banned = (
+        "NovaCoding",
+        "novacoding",
+        "NovaCheck",
+        "novacheck",
+        "Roscino",
+        "Giovannipaolo",
+        "Gianpaolo",
+        "Apulia",
+        "Puglia",
+        "18-year",
+        "18 y",
+        "biotech",
+        "Biotechnology",
+        "novacodingg",
+        "NovaMono",
+        "novabeacon",
+    )
+    scanned = [readme] + [path.read_text(encoding="utf-8") for path in svg_paths]
+    scanned.extend(
+        path.read_text(encoding="utf-8")
+        for path in (ROOT / "scripts").glob("*.py")
+        if path.name != "validate_profile.py"
+    )
+    for blob in scanned:
+        for term in banned:
+            if term.lower() in blob.lower():
+                errors.append(f"forbidden identity residue: {term}")
+                break
     references = re.findall(r'<img[^>]+src="([^"]+)"', readme)
     for reference in references:
         target = ROOT / reference

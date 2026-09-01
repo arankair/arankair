@@ -19,7 +19,7 @@ from pathlib import Path
 
 from make_ascii import ASSETS, shared_style
 
-LOGIN = os.environ.get("GITHUB_REPOSITORY_OWNER", "NovaCoding-G")
+LOGIN = os.environ.get("GITHUB_REPOSITORY_OWNER", "arankair")
 TOKEN = os.environ.get("GITHUB_TOKEN")
 
 QUERY = """
@@ -77,7 +77,7 @@ def graphql() -> dict:
         headers={
             "Authorization": f"Bearer {TOKEN}",
             "Content-Type": "application/json",
-            "User-Agent": "NovaCoding-profile-generator",
+            "User-Agent": "arankair-profile-generator",
         },
     )
     result = None
@@ -214,26 +214,26 @@ def build_stats(user: dict, days: list[dict]) -> str:
     ]
     svg = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="620" height="176" '
-        'viewBox="0 0 620 176" role="img" aria-label="NovaCoding public GitHub signals">',
+        'viewBox="0 0 620 176" role="img" aria-label="Aran Kair public GitHub signals">',
         f"<style>{shared_style(text)}</style>",
         '<rect x=".5" y=".5" width="619" height="175" rx="10" class="panel"/>',
-        '<text x="20" y="26" class="faint" font-family="NovaMono" font-size="8" '
+        '<text x="20" y="26" class="faint" font-family="KairMono" font-size="8" '
         f'letter-spacing="1.4">PUBLIC GITHUB · {days[0]["date"]} — {days[-1]["date"]}</text>',
     ]
     for index, (value, label) in enumerate(cards):
         x = 20 + index * 150
         svg.extend(
             [
-                f'<text x="{x}" y="61" class="ink" font-family="NovaMono" '
+                f'<text x="{x}" y="61" class="ink" font-family="KairMono" '
                 f'font-size="22" font-weight="700">{value}</text>',
-                f'<text x="{x}" y="79" class="muted" font-family="NovaMono" '
+                f'<text x="{x}" y="79" class="muted" font-family="KairMono" '
                 f'font-size="7.5">{label}</text>',
             ]
         )
     svg.extend(
         [
             '<path d="M20 96H600" class="line"/>',
-            '<text x="20" y="111" class="faint" font-family="NovaMono" font-size="7">'
+            '<text x="20" y="111" class="faint" font-family="KairMono" font-size="7">'
             "CONTRIBUTIONS / WEEK</text>",
             f'<polyline points="{points}" fill="none" class="accent-line" '
             'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" '
@@ -277,12 +277,12 @@ def build_languages(user: dict) -> str:
         'aria-label="Languages across public repositories">',
         f"<style>{shared_style(text)}</style>",
         f'<rect x=".5" y=".5" width="619" height="{height - 1}" rx="10" class="panel"/>',
-        '<text x="20" y="27" class="faint" font-family="NovaMono" font-size="8" '
+        '<text x="20" y="27" class="faint" font-family="KairMono" font-size="8" '
         'letter-spacing="1.3">LANGUAGE SIGNAL · PUBLIC REPOSITORIES</text>',
-        '<text x="440" y="27" class="faint" font-family="NovaMono" font-size="7">'
+        '<text x="440" y="27" class="faint" font-family="KairMono" font-size="7">'
         "BYTES</text>",
         '<text x="598" y="27" text-anchor="end" class="faint" '
-        'font-family="NovaMono" font-size="7">REPO REACH</text>',
+        'font-family="KairMono" font-size="7">REPO REACH</text>',
     ]
     for index, (name, size, repos, _color) in enumerate(languages):
         y = 51 + index * 23
@@ -291,18 +291,18 @@ def build_languages(user: dict) -> str:
         percent = size / total_bytes * 100
         svg.extend(
             [
-                f'<text x="20" y="{y + 5}" class="ink" font-family="NovaMono" '
+                f'<text x="20" y="{y + 5}" class="ink" font-family="KairMono" '
                 f'font-size="9">{name.upper()}</text>',
                 f'<rect x="185" y="{y - 4}" width="195" height="7" rx="3.5" '
                 'class="line" opacity=".18"/>',
                 f'<rect x="185" y="{y - 4}" width="{byte_width:.1f}" height="7" '
                 'rx="3.5" class="accent"/>',
-                f'<text x="390" y="{y + 4}" class="muted" font-family="NovaMono" '
+                f'<text x="390" y="{y + 4}" class="muted" font-family="KairMono" '
                 f'font-size="7">{percent:4.1f}%</text>',
                 f'<path d="M458 {y - 1}H{458 + repo_width:.1f}" class="accent-line" '
                 'stroke-width="3" stroke-linecap="round"/>',
                 f'<text x="598" y="{y + 4}" text-anchor="end" class="muted" '
-                f'font-family="NovaMono" font-size="7">{repos} REPOS</text>',
+                f'font-family="KairMono" font-size="7">{repos} REPOS</text>',
             ]
         )
     svg.append("</svg>")
@@ -324,7 +324,7 @@ def build_year(days: list[dict]) -> str:
         'viewBox="0 0 620 145" role="img" aria-label="The last year of public contributions">',
         f"<style>{shared_style(text)}</style>",
         '<rect x=".5" y=".5" width="619" height="144" rx="10" class="panel"/>',
-        '<text x="20" y="25" class="faint" font-family="NovaMono" font-size="8" '
+        '<text x="20" y="25" class="faint" font-family="KairMono" font-size="8" '
         'letter-spacing="1.3">THE LAST 365 DAYS · ONE CHARACTER PER DAY</text>',
     ]
     for week_index, week in enumerate(weeks):
@@ -335,16 +335,16 @@ def build_year(days: list[dict]) -> str:
             svg.append(
                 f'<text x="{start_x + week_index * step_x:.1f}" '
                 f'y="{start_y + weekday * step_y:.1f}" class="{css_class}" '
-                f'font-family="NovaMono" font-size="10">{symbol}</text>'
+                f'font-family="KairMono" font-size="10">{symbol}</text>'
             )
     for weekday, label in ((0, "MON"), (2, "WED"), (4, "FRI"), (6, "SUN")):
         svg.append(
             f'<text x="20" y="{start_y + weekday * step_y:.1f}" class="faint" '
-            f'font-family="NovaMono" font-size="7">{label}</text>'
+            f'font-family="KairMono" font-size="7">{label}</text>'
         )
     svg.extend(
         [
-            '<text x="20" y="130" class="faint" font-family="NovaMono" font-size="7">'
+            '<text x="20" y="130" class="faint" font-family="KairMono" font-size="7">'
             "QUIET  ·  :  +  #  @  LOUD</text>",
             "</svg>",
         ]

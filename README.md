@@ -1,11 +1,10 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="NovaCoding — independent software studio in Apulia, Italy"/>
+<img src="./assets/hero.svg" width="100%" alt="Aran Kair — independent technologist"/>
 
-[studio](https://novacoding.vercel.app) &nbsp;·&nbsp;
-[source](https://github.com/NovaCoding-G?tab=repositories) &nbsp;·&nbsp;
-[npm](https://www.npmjs.com/package/novacheck) &nbsp;·&nbsp;
-[email](mailto:novacodingg@gmail.com)
+[github](https://github.com/arankair) &nbsp;·&nbsp;
+[vsarena](https://vsarena.vercel.app) &nbsp;·&nbsp;
+[email](mailto:arankair.dev@gmail.com)
 
 </div>
 
@@ -13,63 +12,45 @@
 
 <img src="./assets/section-about.svg" width="100%" alt="Manifesto"/>
 
-> Biotechnology gives me the questions. Software gives me a way to test them.
+> Independent technologist. Software, AI and robotics systems — built in public.
 
-NovaCoding is the independent practice of **Giovannipaolo Roscino**, based in Italy. I build public systems where code has to stay close to evidence:
-security tools that show their findings, scientific interfaces that preserve
-their sources, and simulations that explain their limits.
+I am **Aran Kair**. I design tools and environments where models have to act in
+the world, not only talk about it. The current practice is **XYDEN**: software,
+embodied AI and open systems that can be inspected, scored and reused.
 
-The rule is simple: **no black boxes where inspection matters**.
+The rule is simple: **if it cannot be watched, it does not count.**
 
 <br>
 
 <img src="./assets/section-shipping.svg" width="100%" alt="Currently shipping"/>
 
 ```console
-$ npx novacheck .
-BLOCKED  a dependency was invented before it reached your machine
+$ python -m vsarena
+HOLDPOSE  dry-run · VLA track · harness ready
 ```
 
-Right now I am shipping **[NovaCheck](https://github.com/NovaCoding-G/NovaCheck)**,
-a local-first trust gate for AI-generated code. It catches hallucinated npm and
-PyPI packages in manifests, imports, documentation and agent files—before an
-install command turns a plausible name into a supply-chain risk.
+Right now I am shipping **[VSArena](https://github.com/arankair/VSArena)** —
+an open browser arena for embodied / VLA stacking. Watch the physics, run a
+policy, read a public board the browser cannot write.
 
 <br>
 
-<img src="./assets/projects.svg" width="100%" alt="NovaCheck, B.E.A.C.O.N and ImmunoMind"/>
+<img src="./assets/projects.svg" width="100%" alt="VSArena and XYDEN"/>
 
-**[NovaCheck](https://github.com/NovaCoding-G/NovaCheck)** &nbsp;·&nbsp;
-<samp>typescript / node / sarif</samp><br>
-One command, a 0–100 Trust Score, precise findings and CI annotations. Source
-code stays local; registry lookups send package names only.
+**[VSArena](https://github.com/arankair/VSArena)** &nbsp;·&nbsp;
+<samp>next.js / python / rapier</samp><br>
+One stacking task on purpose. Rapier at 60 Hz in the browser, a VLA observation
+track, a Python SDK and harness ELO. **[Open the live arena →](https://vsarena.vercel.app)**
 
-**[B.E.A.C.O.N](https://github.com/NovaCoding-G/B.E.A.C.O.N)** &nbsp;·&nbsp;
-<samp>next.js / typescript / open data</samp><br>
-Places JPL CAD, JPL Sentry and ESA NEOCC values side by side for the same
-near-Earth object. It does not average disagreement away or invent a private
-risk score. **[Open the live system →](https://novabeacon.vercel.app)**
-
-**[ImmunoMind](https://github.com/NovaCoding-G/ImmunoMind)** &nbsp;·&nbsp;
-<samp>python / pygame / simulation</samp><br>
-An educational immune-system simulator with chemotaxis, phagocytosis, pathogen
-replication, fever, treatment and experiment export. It teaches a model—and
-states clearly that the model is not clinical software.
-
-<details>
-<summary><samp>SECONDARY SYSTEM / DATASNAP</samp></summary>
-<br>
-
-**[DataSnap](https://github.com/NovaCoding-G/DataSnap)** turns PDF tables into
-CSV, JSON or Parquet for Excel and Python, with a guided path for first-time
-users.
-
-</details>
+**XYDEN** &nbsp;·&nbsp;
+<samp>software / ai / robotics</samp><br>
+Independent practice for systems that have to survive contact with the physical
+and the public web. Open source where the work benefits from review.
 
 <br>
 
 <samp>
-WORKING SET / PYTHON · TYPESCRIPT · JAVASCRIPT · REACT · NEXT.JS · NODE · BUN · PYGAME · GIT · LINUX
+WORKING SET / TYPESCRIPT · PYTHON · NEXT.JS · REACT · NODE · RAPIER · GIT · LINUX
 </samp>
 
 <br><br>
@@ -90,18 +71,18 @@ WORKING SET / PYTHON · TYPESCRIPT · JAVASCRIPT · REACT · NEXT.JS · NODE · 
 
 <img src="./assets/section-contact.svg" width="100%" alt="Open channel"/>
 
-If you work on **AI supply-chain security**, **planetary data**, or
-**computational biology**, I am interested in sharp questions, reproducible
-counterexamples and small collaborations.
+If you work on **embodied AI**, **evaluation in the open**, or **robotics
+software**, I am interested in sharp protocols, reproducible failures and small
+collaborations.
 
-**[novacoding.vercel.app](https://novacoding.vercel.app)** &nbsp;·&nbsp;
-**[novacodingg@gmail.com](mailto:novacodingg@gmail.com)**
+**[github.com/arankair](https://github.com/arankair)** &nbsp;·&nbsp;
+**[arankair.dev@gmail.com](mailto:arankair.dev@gmail.com)**
 
 <br>
 
 <sub>
-Every graphic on this page is generated inside this repository. The mark is
-converted to ASCII from a versioned source image; public GitHub signals are
-drawn directly from the GraphQL API by a scheduled workflow. Fonts are subset
-and embedded. No tracking pixels, external stat cards or runtime data services.
+Every graphic on this page is generated inside this repository. Public GitHub
+signals are drawn directly from the GraphQL API by a scheduled workflow. Fonts
+are subset and embedded. No tracking pixels, external stat cards or runtime
+data services.
 </sub>
