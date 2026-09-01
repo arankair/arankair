@@ -70,7 +70,7 @@ def shared_style(text: str) -> str:
 
 def build_hero() -> str:
     labels = (
-        "ARAN KAIR INDEPENDENT TECHNOLOGIST WORLD XYDEN "
+        "ARAN KAIR INDEPENDENT TECHNOLOGIST WORLD ONISCOR "
         "LAB GITHUB ORGANIZATION SOFTWARE AI ROBOTICS OPEN SOURCE "
         + "".join(AK_MARK)
     )
@@ -120,7 +120,7 @@ def build_hero() -> str:
             '<circle r="28" fill="none" class="accent-line" stroke-width="1.2"/>',
             '<circle r="20" class="panel"/>',
             '<text y="-2" text-anchor="middle" class="accent" font-family="KairMono" '
-            'font-size="9" font-weight="700">XYDEN</text>',
+            'font-size="8" font-weight="700">ONISCOR</text>',
             '<text y="10" text-anchor="middle" class="faint" font-family="KairMono" '
             'font-size="6">LAB / ORG</text>',
             '<circle r="3.5" class="accent motion"><animateMotion dur="10s" '
@@ -139,8 +139,8 @@ def build_hero() -> str:
             "</g>",
             '<text x="24" y="330" class="accent" font-family="KairMono" font-size="10">&gt;_</text>',
             '<text x="52" y="330" class="ink" font-family="KairMono" font-size="10">'
-            "XYDEN  ·  LAB AND GITHUB ORGANIZATION</text>",
-            '<rect x="392" y="319" width="7" height="14" class="accent motion">'
+            "ONISCOR  ·  LAB AND GITHUB ORGANIZATION</text>",
+            '<rect x="404" y="319" width="7" height="14" class="accent motion">'
             '<animate attributeName="opacity" values="1;.15;1" dur="1.1s" '
             'repeatCount="indefinite"/></rect>',
             "</svg>",

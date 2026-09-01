@@ -3,6 +3,7 @@
 <img src="./assets/hero.svg" width="100%" alt="Aran Kair — independent technologist"/>
 
 [github](https://github.com/arankair) &nbsp;·&nbsp;
+[oniscor](https://github.com/ONISCOR) &nbsp;·&nbsp;
 [vsarena](https://vsarena.vercel.app) &nbsp;·&nbsp;
 [email](mailto:arankair.dev@gmail.com)
 
@@ -15,7 +16,9 @@
 > Independent technologist. Software, AI and robotics systems — built in public.
 
 I am **Aran Kair**. I design tools and environments where models have to act in
-the world, not only talk about it. **XYDEN** is my lab and GitHub organization:
+the world, not only talk about it. **[ONISCOR](https://github.com/ONISCOR)** is
+my lab and GitHub organization: software, embodied AI and open systems that can
+be inspected, scored and reused.
 software, embodied AI and open systems that can be inspected, scored and reused.
 
 The rule is simple: **if it cannot be watched, it does not count.**
