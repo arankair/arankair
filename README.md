@@ -4,7 +4,7 @@
 
 [github](https://github.com/arankair) &nbsp;·&nbsp;
 [oniscor](https://github.com/ONISCOR) &nbsp;·&nbsp;
-[vsarena](https://vsarena.vercel.app) &nbsp;·&nbsp;
+[vsarena](https://www.vsarena.app) &nbsp;·&nbsp;
 [email](mailto:arankair.dev@gmail.com)
 
 </div>
